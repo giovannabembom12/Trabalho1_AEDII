@@ -12,11 +12,10 @@
 int compararInts(const void *a, const void *b) {
     return (*(int*)a - *(int*)b);
 }
-
-//tocando agora: wildest dreams - taylor swift 
+ 
 int main() {
 
-    setlocale(LC_ALL, "pt_BR.UTF-8"); //funcionou aaaaaaaaaa
+    setlocale(LC_ALL, "pt_BR.UTF-8"); 
 
     printf("QUESTÃO 01 - Busca sequencial com vetor desordenado VS Busca binária com vetor ordenado");
     srand(time(NULL));
