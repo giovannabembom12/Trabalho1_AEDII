@@ -9,7 +9,6 @@
 #define TAMANHO_ATUAL 1000000 
 #define NUM_EXECUCOES 30
 
-//tocando agora: normal - bts
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
     srand(time(NULL));
