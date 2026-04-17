@@ -2,7 +2,6 @@
 #include <time.h>
 #include "estatisticas.h"
 
-//hahahahahahahahahahahahaha hooligan
 double tempoAtual(void) {
     struct timespec ts;
     clock_gettime(CLOCK_MONOTONIC, &ts);
