@@ -9,7 +9,6 @@
 #define TAMANHO_VETOR 100000 
 #define NUM_RODADAS 10
 
-//tocando agora: like animals (bts) A MAIORAL
 int main() {
     setlocale(LC_ALL, "pt_BR.UTF-8");
     srand(time(NULL));
@@ -29,7 +28,6 @@ int main() {
        
         preencherDesordenado(vetorBase);
 
-        //if you wanna be animaaals, baby, we can be animaaaals
         copiarVetor(vetorBase, vetorTeste);
         double inicio = tempoAtual();
         bubbleSort(vetorTeste);
