@@ -17,7 +17,6 @@ int obterValor(Vetor *vetor, int indice);
 int buscaSequencialEmVetor(Vetor *vetor, int alvo);
 int buscaBinaria(Vetor *vetor, int alvo);
 
-void copiaVetor(Vetor *vet, Vetor *vet_copia);
 void bubbleSort(Vetor *v);
 void selectionSort(Vetor *v);
 void insertionSort(Vetor *v);
